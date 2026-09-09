@@ -1,0 +1,5 @@
+# nothing sensitive yet; add secrets/venvs here later
+__pycache__/
+*.pyc
+.venv/
+venv/
