@@ -21,3 +21,16 @@ mutated at all — operations always produce new objects.
 
 ## Links
 - next: functions, scope, and the mutable-default-argument trap
+
+
+## My own words
+So far what I've understood is the fact that. Mutable object is like a box where everyone can
+actually put the nametag on it. Like two names being "a" and "b". Some of the types of mutable
+objects are lists, dictionaries. 
+
+So whenever let's say im doing a = list. and b = a. So list will be a box which will have 2 stickers
+on it. so a and b can access the list. But apart from that, if i do b = b + [4].
+Firstly it'll create a new list of b (which is "a") and then add '4'.
+Then finally the sticker of B will be placed on top of the newly made list!
+
+Similarly, immutable objects exists too. Types being, int, str, bool, tuples and etc.

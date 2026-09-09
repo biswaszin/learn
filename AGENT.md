@@ -20,6 +20,21 @@ the user to build things later with **zero AI**.
 - Preferred style: explain it → quiz me → fill knowledge gaps → assign an
   *adjacent* build task (related to the target project, not identical to it).
 
+## Task-Assignment Format (REQUIRED before any build task)
+1. What we're building (goal in plain terms).
+2. Resources needed (tools/libraries/setup).
+3. Docs to read (official documentation links).
+4. A solid questionnaire (see below). Give goal + acceptance criteria only —
+   never the implementation.
+
+## Questionnaire Standard
+Balance quality (deep "why") and quantity (coverage). Mix MCQ, predict-output,
+spot-the-bug, explain-back, and >=1 written long-form answer. When the learner
+is wrong: let them explain, then cross-question on that point, then ask extra
+written follow-ups. Don't advance until shaky points are re-tested.
+
+## Learner settings: ~15 hrs/week (up to 20), depth-first.
+
 ## Workflow Each Session
 
 1. Read `curriculum.md` and the relevant `progress/<topic>.md`. Sprinkle in a

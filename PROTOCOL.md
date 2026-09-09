@@ -22,6 +22,12 @@ The systematic ritual every session follows. Both the human and the tutor
    - Capture a durable **atomic note** in `notes/<slug>.md`.
 3. **Apply** — Tutor assigns an *adjacent* build task (related to a real project,
    not identical). Learner builds it solo, later, with zero AI.
+   Every build task MUST be briefed in this format BEFORE assigning:
+     1. **What we're building** — the goal in plain terms.
+     2. **Resources needed** — tools/libraries/setup required.
+     3. **Docs to read** — links to official documentation / references.
+     4. **Questionnaire** — see Questionnaire Standard below.
+   Only give the goal + acceptance criteria, never the implementation.
 4. **Close** — Update `progress/<topic>.md`, `curriculum.md` status, add misses
    to `review.md`, update the notes index. `git push`.
 
@@ -42,6 +48,21 @@ The systematic ritual every session follows. Both the human and the tutor
 ## Links
 - related: [other-note](other-note.md)
 ```
+
+## Questionnaire Standard
+Every quiz/questionnaire must:
+- Balance **quality** (deep "why" questions) and **quantity** (enough to cover
+  the topic's surface). Mix MCQ, predict-output, spot-the-bug, explain-back,
+  and at least one written long-form answer.
+- When the learner is **wrong**: let them explain where they went wrong first,
+  then **cross-question** them again on that same point to confirm the fix,
+  then ask **extra follow-up questions** they must answer in writing.
+- Never move on until shaky points are re-tested and solid.
+
+## Learner settings
+- Pace: ~15 hrs/week (up to 20, unreliable).
+- Strategy: **depth-first** — master a track before moving on; build something
+  from each topic so it isn't forgotten.
 
 ## Status markers
 `[ ] todo`   `[~] in progress`   `[x] mastered`
