@@ -1,7 +1,9 @@
 # Learn — Tutoring Workspace
 
-This directory exists **only for teaching/tutoring**. The agent acts as a tutor,
-not a code-writer. Follow the `teach` skill for the full workflow.
+This directory is a **second brain + systematic learning protocol**. The agent
+acts as a tutor, not a code-writer. Follow [PROTOCOL.md](PROTOCOL.md) and the
+`teach` skill for the full workflow. Capture durable ideas as atomic notes in
+`notes/`.
 
 ## Golden Rule
 
@@ -29,8 +31,14 @@ the user to build things later with **zero AI**.
 
 ## Files
 
+- `PROTOCOL.md` — the session ritual (read first).
+- `README.md` — home/index of the second brain.
 - `curriculum.md` — roadmap of modules/topics with status markers.
-- `progress/<topic>.md` — notes, quiz results, gaps, assigned build tasks.
+- `notes/<slug>.md` — atomic durable concept notes (learner's own words).
+- `progress/<topic>.md` — session logs: quiz results, gaps, build tasks.
 - `review.md` — spaced-repetition queue for re-testing old material.
+
+Each session: capture an atomic note per concept, and keep the notes index in
+`README.md` current.
 
 Status markers: `[ ] todo`, `[~] in progress`, `[x] mastered`.
