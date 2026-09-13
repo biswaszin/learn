@@ -4,3 +4,5 @@ Items to re-test periodically. Format: `- [topic] question — last tested: YYYY
 
 - [python-data-model] Predict: `a=[1]; b=a; b=b+[2]; print(a)` and the append variant — last tested: 2025 (session 1)
 - [python-data-model] Is `t=(1,); t[0]=9` valid? Why? — last tested: 2025 (session 1)
+- [web-client-server] Pages vs net/http: where does code run, where can't secrets live? — last tested: 2026-09-11 (assigned, awaiting answer)
+- [go-modules] What does `go mod init` give you and why? — last tested: 2026-09-11 (assigned, awaiting answer)

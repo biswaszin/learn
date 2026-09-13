@@ -23,11 +23,11 @@ Learner anchors (real projects, to be built with ZERO AI):
 - [ ] Testing basics
 
 ## Track B — Go (anchor: work)
-- [ ] Types, structs, slices, maps
-- [ ] Interfaces & composition
-- [ ] Goroutines & channels (concurrency model)
-- [ ] Error handling idioms
-- [ ] Modules & tooling
+- [~] Types, structs, slices, maps (Tour of Go Basics — in progress)
+- [~] Interfaces & composition (Tour Methods up to Errors — in progress)
+- [ ] Goroutines & channels (concurrency model) — deferred to Minecraft-pinger
+- [~] Error handling idioms (Tour Errors — in progress)
+- [~] Modules & tooling (go mod init/run/build — in progress)
 
 ## Track C — Low-level & Linux
 - [ ] How memory works: stack/heap, pointers
@@ -43,10 +43,10 @@ Learner anchors (real projects, to be built with ZERO AI):
 - [ ] Shaders at a conceptual level
 
 ## Track E — Web (anchor: personal website)
-- [ ] How the web works: DNS, HTTP, request/response
-- [ ] HTML/CSS mental models
-- [ ] Client vs server; where code runs
-- [ ] Deployment basics
+- [~] How the web works: DNS, HTTP, request/response (Pages vs net/http — in progress)
+- [~] HTML/CSS mental models (site exists in personal-website/ — in progress)
+- [~] Client vs server; where code runs (in progress)
+- [ ] Deployment basics (stretch: Fly/Render/VPS)
 
 ## Track F — Indian Legal Research + Business/Market
 - [ ] Structure of Indian law & sources
