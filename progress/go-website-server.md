@@ -20,6 +20,9 @@ Status: [~] in progress — Go refresh via Tour, then serve existing site with n
 
 ## Quiz results
 - Pending: 3 readiness questions assigned, awaiting learner answers.
+- 2026-09-14: Learner finished Tour "Packages, variables, and functions". Comprehensive
+  cross-questionnaire (sections W + A–G below) assigned — awaiting written answers.
+  Plan: grade honestly → cross-question misses → write atomic notes in notes/.
 
 ## Assigned build task (solo, no AI) — not yet started
 - Goal: `go run .` serves existing site on localhost:8080; `/` → index, static dirs work, 404 on bad path, runs from any cwd.
